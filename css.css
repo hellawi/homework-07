@@ -1,6 +1,6 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 *{
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   font-family: sans-serif;
 }
 menu{
@@ -19,18 +19,18 @@ li{
 a:hover{
     color: crimson;
 }
-/* .menu li > a {
+.menu li > a {
     font-size: 15.5px;
     text-decoration: none;
     color: aliceblue;
     transition: all 1s linear;
-  } */
-/* .menu li {
+  }
+.menu li {
     list-style: none;
     position: relative;
     width: 250px;
     height: 36px;
-} */
+}
 .fa{
     position: relative;
     display: table-cell;
@@ -42,7 +42,7 @@ a:hover{
 }
 .menu {
     background-color: gray;
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     height: 100%;
@@ -54,16 +54,23 @@ a:hover{
 .menu:hover {
     width: 300px;
 }
-/* .menu .ul-text {
+.menu .ul-text {
     position: relative;
     display: table-cell;
     vertical-align: middle;
     width: 190px;
-} */
-/* .menu > ul {
+}
+.menu > ul {
     margin: 7px 0;
-} */
+}
 nav ul, nav li{
     margin: 0;
     padding: 0;
+}
+.nav-text-here{
+   transform: rotate(90deg);
+   position: absolute;
+   top: 50;
+   left: -250;
+   width: 150px;
 }
